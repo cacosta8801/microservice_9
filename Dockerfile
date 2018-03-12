@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 
-EXPOSE 5008
+EXPOSE 5008:5008
 CMD python microservicepython.py
 
 ADD . /code
